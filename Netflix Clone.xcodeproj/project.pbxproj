@@ -21,6 +21,7 @@
 		84C210A527C03AF10047C1AA /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210A427C03AF10047C1AA /* APICaller.swift */; };
 		84C210A727C03B6F0047C1AA /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210A627C03B6F0047C1AA /* Title.swift */; };
 		84C210A927C03B960047C1AA /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210A827C03B960047C1AA /* YoutubeSearchResponse.swift */; };
+		84C210AB27C041D50047C1AA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210AA27C041D50047C1AA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		84C210A427C03AF10047C1AA /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		84C210A627C03B6F0047C1AA /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		84C210A827C03B960047C1AA /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		84C210AA27C041D50047C1AA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		84C2109C27BC54A60047C1AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84C210AA27C041D50047C1AA /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				84C210A527C03AF10047C1AA /* APICaller.swift in Sources */,
 				84C210A327BD10EA0047C1AA /* HeroHeaderUIView.swift in Sources */,
 				84C2109A27BC4BC30047C1AA /* DownloadsViewController.swift in Sources */,
+				84C210AB27C041D50047C1AA /* Extensions.swift in Sources */,
 				84C2107F27BC49AD0047C1AA /* AppDelegate.swift in Sources */,
 				84C2108127BC49AD0047C1AA /* SceneDelegate.swift in Sources */,
 				84C2109627BC4B7D0047C1AA /* UpcomingViewController.swift in Sources */,
