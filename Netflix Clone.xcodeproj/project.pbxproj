@@ -18,6 +18,9 @@
 		84C2109A27BC4BC30047C1AA /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2109927BC4BC30047C1AA /* DownloadsViewController.swift */; };
 		84C210A127BC55C80047C1AA /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210A027BC55C80047C1AA /* CollectionViewTableViewCell.swift */; };
 		84C210A327BD10EA0047C1AA /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210A227BD10EA0047C1AA /* HeroHeaderUIView.swift */; };
+		84C210A527C03AF10047C1AA /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210A427C03AF10047C1AA /* APICaller.swift */; };
+		84C210A727C03B6F0047C1AA /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210A627C03B6F0047C1AA /* Title.swift */; };
+		84C210A927C03B960047C1AA /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C210A827C03B960047C1AA /* YoutubeSearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		84C2109927BC4BC30047C1AA /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		84C210A027BC55C80047C1AA /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		84C210A227BD10EA0047C1AA /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		84C210A427C03AF10047C1AA /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		84C210A627C03B6F0047C1AA /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		84C210A827C03B960047C1AA /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 		84C2109B27BC54980047C1AA /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				84C210A427C03AF10047C1AA /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -110,6 +117,8 @@
 		84C2109D27BC54B40047C1AA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84C210A627C03B6F0047C1AA /* Title.swift */,
+				84C210A827C03B960047C1AA /* YoutubeSearchResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,9 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C210A927C03B960047C1AA /* YoutubeSearchResponse.swift in Sources */,
 				84C2109827BC4B9D0047C1AA /* SearchViewController.swift in Sources */,
 				84C2108327BC49AD0047C1AA /* MainTabBarViewController.swift in Sources */,
+				84C210A727C03B6F0047C1AA /* Title.swift in Sources */,
 				84C210A127BC55C80047C1AA /* CollectionViewTableViewCell.swift in Sources */,
+				84C210A527C03AF10047C1AA /* APICaller.swift in Sources */,
 				84C210A327BD10EA0047C1AA /* HeroHeaderUIView.swift in Sources */,
 				84C2109A27BC4BC30047C1AA /* DownloadsViewController.swift in Sources */,
 				84C2107F27BC49AD0047C1AA /* AppDelegate.swift in Sources */,
