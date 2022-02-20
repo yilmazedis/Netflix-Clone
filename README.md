@@ -9,3 +9,6 @@ Supported by
 
 take advantage of
 * themoviedb.org
+
+Swift Package Manager
+* https://github.com/SDWebImage/SDWebImage
