@@ -2,7 +2,7 @@
 //  TitleCollectionViewCell.swift
 //  Netflix Clone
 //
-//  Created by Yilmaz Edis (employee ID: y84185251) on 20.02.2022.
+//  Created by Yilmaz Edis on 20.02.2022.
 //
 import UIKit
 import SDWebImage
