@@ -10,6 +10,10 @@
 		84324FC327C256D100ACBC52 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FC227C256D100ACBC52 /* TitleCollectionViewCell.swift */; };
 		84324FC627C2575300ACBC52 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 84324FC527C2575300ACBC52 /* SDWebImage */; };
 		84324FC827C2575300ACBC52 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 84324FC727C2575300ACBC52 /* SDWebImageMapKit */; };
+		84324FCA27C5727600ACBC52 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FC927C5727600ACBC52 /* TitleTableViewCell.swift */; };
+		84324FCC27C5740C00ACBC52 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FCB27C5740C00ACBC52 /* TitleViewModel.swift */; };
+		84324FCE27C5746500ACBC52 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FCD27C5746500ACBC52 /* TitlePreviewViewModel.swift */; };
+		84324FD127C5751E00ACBC52 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FD027C5751E00ACBC52 /* TitlePreviewViewController.swift */; };
 		84C2107F27BC49AD0047C1AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2107E27BC49AD0047C1AA /* AppDelegate.swift */; };
 		84C2108127BC49AD0047C1AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2108027BC49AD0047C1AA /* SceneDelegate.swift */; };
 		84C2108327BC49AD0047C1AA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2108227BC49AD0047C1AA /* MainTabBarViewController.swift */; };
@@ -29,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		84324FC227C256D100ACBC52 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		84324FC927C5727600ACBC52 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		84324FCB27C5740C00ACBC52 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		84324FCD27C5746500ACBC52 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		84324FD027C5751E00ACBC52 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		84C2107B27BC49AD0047C1AA /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C2107E27BC49AD0047C1AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C2108027BC49AD0047C1AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84324FCF27C5750900ACBC52 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				84324FD027C5751E00ACBC52 /* TitlePreviewViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		84C2107227BC49AD0047C1AA = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +115,7 @@
 		84C2109227BC4B0D0047C1AA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				84324FCF27C5750900ACBC52 /* General */,
 				84C2109327BC4B4A0047C1AA /* HomeViewController.swift */,
 				84C2109527BC4B7D0047C1AA /* UpcomingViewController.swift */,
 				84C2109727BC4B9D0047C1AA /* SearchViewController.swift */,
@@ -138,6 +155,7 @@
 				84C210A027BC55C80047C1AA /* CollectionViewTableViewCell.swift */,
 				84C210A227BD10EA0047C1AA /* HeroHeaderUIView.swift */,
 				84324FC227C256D100ACBC52 /* TitleCollectionViewCell.swift */,
+				84324FC927C5727600ACBC52 /* TitleTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,6 +163,8 @@
 		84C2109F27BC54C40047C1AA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				84324FCB27C5740C00ACBC52 /* TitleViewModel.swift */,
+				84324FCD27C5746500ACBC52 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -232,12 +252,16 @@
 				84C210A727C03B6F0047C1AA /* Title.swift in Sources */,
 				84C210A127BC55C80047C1AA /* CollectionViewTableViewCell.swift in Sources */,
 				84C210A527C03AF10047C1AA /* APICaller.swift in Sources */,
+				84324FCE27C5746500ACBC52 /* TitlePreviewViewModel.swift in Sources */,
 				84C210A327BD10EA0047C1AA /* HeroHeaderUIView.swift in Sources */,
 				84324FC327C256D100ACBC52 /* TitleCollectionViewCell.swift in Sources */,
 				84C2109A27BC4BC30047C1AA /* DownloadsViewController.swift in Sources */,
 				84C210AB27C041D50047C1AA /* Extensions.swift in Sources */,
+				84324FCA27C5727600ACBC52 /* TitleTableViewCell.swift in Sources */,
 				84C2107F27BC49AD0047C1AA /* AppDelegate.swift in Sources */,
 				84C2108127BC49AD0047C1AA /* SceneDelegate.swift in Sources */,
+				84324FD127C5751E00ACBC52 /* TitlePreviewViewController.swift in Sources */,
+				84324FCC27C5740C00ACBC52 /* TitleViewModel.swift in Sources */,
 				84C2109627BC4B7D0047C1AA /* UpcomingViewController.swift in Sources */,
 				84C2109427BC4B4A0047C1AA /* HomeViewController.swift in Sources */,
 			);
