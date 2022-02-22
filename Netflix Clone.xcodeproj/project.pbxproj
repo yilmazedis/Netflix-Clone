@@ -14,6 +14,7 @@
 		84324FCC27C5740C00ACBC52 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FCB27C5740C00ACBC52 /* TitleViewModel.swift */; };
 		84324FCE27C5746500ACBC52 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FCD27C5746500ACBC52 /* TitlePreviewViewModel.swift */; };
 		84324FD127C5751E00ACBC52 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FD027C5751E00ACBC52 /* TitlePreviewViewController.swift */; };
+		84324FD427C5812900ACBC52 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84324FD327C5812900ACBC52 /* SearchResultsViewController.swift */; };
 		84C2107F27BC49AD0047C1AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2107E27BC49AD0047C1AA /* AppDelegate.swift */; };
 		84C2108127BC49AD0047C1AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2108027BC49AD0047C1AA /* SceneDelegate.swift */; };
 		84C2108327BC49AD0047C1AA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2108227BC49AD0047C1AA /* MainTabBarViewController.swift */; };
@@ -37,6 +38,7 @@
 		84324FCB27C5740C00ACBC52 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		84324FCD27C5746500ACBC52 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		84324FD027C5751E00ACBC52 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		84324FD327C5812900ACBC52 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		84C2107B27BC49AD0047C1AA /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C2107E27BC49AD0047C1AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84C2108027BC49AD0047C1AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,8 +75,20 @@
 			isa = PBXGroup;
 			children = (
 				84324FD027C5751E00ACBC52 /* TitlePreviewViewController.swift */,
+				84324FD327C5812900ACBC52 /* SearchResultsViewController.swift */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		84324FD227C57F4600ACBC52 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				84C2109327BC4B4A0047C1AA /* HomeViewController.swift */,
+				84C2109527BC4B7D0047C1AA /* UpcomingViewController.swift */,
+				84C2109727BC4B9D0047C1AA /* SearchViewController.swift */,
+				84C2109927BC4BC30047C1AA /* DownloadsViewController.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		84C2107227BC49AD0047C1AA = {
@@ -115,11 +129,8 @@
 		84C2109227BC4B0D0047C1AA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				84324FD227C57F4600ACBC52 /* Core */,
 				84324FCF27C5750900ACBC52 /* General */,
-				84C2109327BC4B4A0047C1AA /* HomeViewController.swift */,
-				84C2109527BC4B7D0047C1AA /* UpcomingViewController.swift */,
-				84C2109727BC4B9D0047C1AA /* SearchViewController.swift */,
-				84C2109927BC4BC30047C1AA /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -258,6 +269,7 @@
 				84C2109A27BC4BC30047C1AA /* DownloadsViewController.swift in Sources */,
 				84C210AB27C041D50047C1AA /* Extensions.swift in Sources */,
 				84324FCA27C5727600ACBC52 /* TitleTableViewCell.swift in Sources */,
+				84324FD427C5812900ACBC52 /* SearchResultsViewController.swift in Sources */,
 				84C2107F27BC49AD0047C1AA /* AppDelegate.swift in Sources */,
 				84C2108127BC49AD0047C1AA /* SceneDelegate.swift in Sources */,
 				84324FD127C5751E00ACBC52 /* TitlePreviewViewController.swift in Sources */,
