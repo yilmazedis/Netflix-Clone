@@ -173,6 +173,7 @@ class APICaller {
             }
 
             do {
+                // let results = try JSONSerialization.jsonObject(with: data, options: .fragmentsAllowed)
                 let results = try JSONDecoder().decode(YoutubeSearchResponse.self, from: data)
 
                 completion(.success(results.items[0]))
