@@ -9,6 +9,7 @@ Supported by
 
 take advantage of
 * themoviedb.org
+* Youtube api
 
 Swift Package Manager
 * https://github.com/SDWebImage/SDWebImage
